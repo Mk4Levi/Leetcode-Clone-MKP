@@ -1,8 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LeetLogo from "./assets/leetcode_logo.svg";
+import leetLogo from "./assets/leetcode_logo.svg";
+import mkImg from "./assets/MK-White_Logo.png";
+import roboImg from "./assets/mk-robo.gif";
 import Navbar from "../../components/navbar/navbar";
 import "./explorePage.css";
+
 const ExplorePage = () => {
   return (
     <div id="explorePage">
@@ -10,8 +13,7 @@ const ExplorePage = () => {
       <div id="explore-hero">
         <h3>Welcome to</h3>
         <h1>
-          {/* <img src="./assets/leetcode_logo.svg" className="leet-logo" /> */}
-          <LeetLogo className="leet-logo" />
+          <img src={leetLogo} className="leet-logo" />
         </h1>
         <h2>A New Way to Learn</h2>
         <span id="home-text">
@@ -26,8 +28,8 @@ const ExplorePage = () => {
         </Link>
       </div>
       <div>
-        <img src="./assets/MK-White_Logo.png" className="home-img" />
-        <img src="./assets/mk-robo.gif" className="home-robo" />
+        <img src={mkImg} className="home-img" />
+        <img src={roboImg} className="home-robo" />
       </div>
     </div>
   );
