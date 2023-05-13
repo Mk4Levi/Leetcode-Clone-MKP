@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import LeetLogo from "./assets/leetcode_logo.svg";
 import Navbar from "../../components/navbar/navbar";
 import "./explorePage.css";
 const ExplorePage = () => {
@@ -10,7 +10,8 @@ const ExplorePage = () => {
       <div id="explore-hero">
         <h3>Welcome to</h3>
         <h1>
-          <img src="./assets/leetcode_logo.svg" className="leet-logo" />
+          {/* <img src="./assets/leetcode_logo.svg" className="leet-logo" /> */}
+          <LeetLogo className="leet-logo" />
         </h1>
         <h2>A New Way to Learn</h2>
         <span id="home-text">
