@@ -10,7 +10,7 @@ const ExplorePage = () => {
       <div id="explore-hero">
         <h3>Welcome to</h3>
         <h1>
-          <img src="../src/assets/leetcode_logo.svg" className="leet-logo" />
+          <img src="./assets/leetcode_logo.svg" className="leet-logo" />
         </h1>
         <h2>A New Way to Learn</h2>
         <span id="home-text">
@@ -25,8 +25,8 @@ const ExplorePage = () => {
         </Link>
       </div>
       <div>
-        <img src="../src/assets/MK-White_Logo.png" className="home-img" />
-        <img src="../src/assets/mk-robo.gif" className="home-robo" />
+        <img src="./assets/MK-White_Logo.png" className="home-img" />
+        <img src="./assets/mk-robo.gif" className="home-robo" />
       </div>
     </div>
   );
