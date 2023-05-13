@@ -11,13 +11,13 @@
 2. First, you need to open a `Terminal` in your system and `Clone` this repository by using :
 
 ```bash
-git clone https://github.com/Mk4Levi/Leetcode-clone-mkp.git
+git clone https://github.com/Mk4Levi/Leetcode-Clone-MKP.git
 ```
 
 3. Navigate to the Project's directory :
 
 ```bash
-cd Leetcode-clone-mkp
+cd Leetcode-Clone-MKP
 ```
 
 4. Install all Dependencies used in this Project :
