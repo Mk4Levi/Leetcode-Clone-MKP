@@ -6,7 +6,7 @@
 
 <h2>Getting Started</h2>
 
-1. To get started with this project, you will need to have `Node.js` and `NPM` installed on your system.
+1. To get started with this project, you will need to have `Node.js` and `NPM` installed on your system
 
 2. First, you need to open a `Terminal` in your system and `Clone` this repository by using :
 
