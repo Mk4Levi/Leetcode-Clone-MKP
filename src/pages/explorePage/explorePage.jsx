@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import leetLogo from "./assets/leetcode_logo.svg";
-import mkImg from "./assets/MK-White_Logo.png";
+import mkLogo from "./assets/mkLogo.png";
+import mkImg from "./assets/MK-White_logo.png";
 import roboImg from "./assets/mk-robo.gif";
 import Navbar from "../../components/navbar/navbar";
 import "./explorePage.css";
@@ -28,7 +29,7 @@ const ExplorePage = () => {
         </Link>
       </div>
       <div>
-        <img src={mkImg} className="home-img" />
+        <img src={mkLogo} className="home-img" />
         <img src={roboImg} className="home-robo" />
       </div>
     </div>
