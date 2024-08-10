@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import leetLogo from "./assets/leetcode_logo.svg";
 import mkLogo from "./assets/mkLogo.png";
-import mkImg from "./assets/MK-White_logo.png";
+import mkCoder from "./assets/mkcoder.png";
+// import mkImg from "./assets/MK-White_logo.png";
 import roboImg from "./assets/mk-robo.gif";
 import Navbar from "../../components/navbar/navbar";
 import "./explorePage.css";
@@ -27,11 +28,18 @@ const ExplorePage = () => {
         <Link to={"/signup"}>
           <button id="home-btn">Get Started</button>
         </Link>
+        <a href="https://manthan-mk.vercel.app" target="_blank">
+          <button id="home-btn">My Website</button>
+        </a>
       </div>
-      <div>
+      <img src={roboImg} className="home-robo" />
+      <a href="https://manthan-mk-portfolio.vercel.app" target="_blank">
         <img src={mkLogo} className="home-img" />
-        <img src={roboImg} className="home-robo" />
-      </div>
+      </a>
+
+      <a href="https://mk-codezone.vercel.app" target="_blank">
+        <img src={mkCoder} className="home-img2" />
+      </a>
     </div>
   );
 };

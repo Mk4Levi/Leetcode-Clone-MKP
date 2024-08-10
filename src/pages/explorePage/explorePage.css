@@ -30,7 +30,15 @@
   width: 400px;
   position: absolute;
   left: 950px;
-  top: 100px;
+  top: 90px;
+}
+
+.home-img2 {
+  border-radius: 20px;
+  width: 500px;
+  position: absolute;
+  left: 900px;
+  bottom: 200px;
 }
 
 .home-robo {
