@@ -13,7 +13,9 @@ const ExplorePage = () => {
     <div id="explorePage">
       <Navbar />
       <div id="explore-hero">
-        <h3>Welcome to</h3>
+        <h3>
+          <b>Welcome to</b>
+        </h3>
         <h1>
           <img src={leetLogo} className="leet-logo" />
         </h1>
@@ -26,10 +28,14 @@ const ExplorePage = () => {
         </span>
         <br />
         <Link to={"/signup"}>
-          <button id="home-btn">Get Started</button>
+          <button id="home-btn">
+            <b>Get Started</b>
+          </button>
         </Link>
-        <a href="https://manthan-mk.vercel.app" target="_blank">
-          <button id="home-btn">My Website</button>
+        <a href="https://manthan-mk-portfolio.vercel.app" target="_blank">
+          <button id="home-btn">
+            <b>My Website</b>
+          </button>
         </a>
       </div>
       <img src={roboImg} className="home-robo" />

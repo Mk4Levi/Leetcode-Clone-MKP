@@ -12,7 +12,7 @@
 #explore-hero h3 {
   font-size: 1.1rem;
   font-weight: 4;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 #explore-hero h1 {
   font-size: 2rem;
@@ -27,26 +27,26 @@
 
 .home-img {
   border-radius: 20px;
-  width: 400px;
+  width: 22%;
   position: absolute;
-  left: 950px;
-  top: 90px;
+  left: 55%;
+  top: 15%;
 }
 
 .home-img2 {
   border-radius: 20px;
-  width: 500px;
+  width: 30%;
   position: absolute;
-  left: 900px;
-  bottom: 200px;
+  left: 52%;
+  bottom: 20%;
 }
 
 .home-robo {
   border-radius: 20px;
-  width: 400px;
+  width: 25%;
   position: absolute;
-  left: 150px;
-  top: 450px;
+  left: 10%;
+  bottom: 19%;
 }
 
 .leet-logo {
